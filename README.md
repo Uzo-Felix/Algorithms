@@ -1,1 +1,1 @@
-<h1>My Algorithms solutions on Javascript</h1>
+<h1>My solved Algorithms challenges on Javascript</h1>
