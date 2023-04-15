@@ -7,6 +7,7 @@ function findElement(arr, func) {
       }
     }
       return undefined
+      // return arr.map(b => func(b)? b: undefined).find(b => b !== undefined);
   }
   
   let result = findElement([1, 2, 3, 4], num => num % 2 === 0);
