@@ -4,12 +4,10 @@
 
 
 function dropElements(arr, func) {
-    let newArr = [...arr];
-    let num = 0;
-    while(!func(newArr[num])){
-      newArr.shift();
+    while(!func(arr[0])){
+      arr.shift();
     }
-    return newArr;
+    return arr;
   }
   
   let result = dropElements([1, 2, 3, 4, 5], function(n) {return n > 3; });
